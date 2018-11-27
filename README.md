@@ -1,5 +1,7 @@
 ## Minimalistic rEFInd theme
 
+## ARCHIVAL NOTICE: I no longer use rEFInd (even though I've never seen anything more prettier) and just use the default EFI bootloader in my laptop firmware instead and will hence be no longer maintaining this. Please feel free to fork if needed.
+
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
 based systems. This is a clean and minimal theme (dark variant) for it forked from [EvanPurkhiser's theme](https://github.com/EvanPurkhiser/rEFInd-minimal).
 
