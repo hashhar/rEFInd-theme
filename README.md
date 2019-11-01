@@ -18,19 +18,19 @@ based systems. This is a clean and minimal theme (dark variant) for it forked fr
 
  3. Clone this repository into the `themes` directory.
 
- 4. To enable the theme add `include themes/rEFInd-minimal/theme.conf` at the end of
-    `refind.conf`. For the dark theme, use `include themes/rEFInd-minimal/theme_dark.conf`.
+ 4. To enable the theme add `include themes/rEFInd-theme/theme.conf` at the end of
+    `refind.conf`. For the dark theme, use `include themes/rEFInd-theme/theme_dark.conf`.
 
 Here's an example menuentry configuration (from the screenshot)
 
 ```nginx
 menuentry "Windows 10" {
-	icon /EFI/refind/themes/rEFInd-minimal/icons/os_win.png
+	icon /EFI/refind/themes/rEFInd-theme/icons/os_win.png
 	loader /EFI/Microsoft/Boot/bootmgfw.efi
 }
 
 menuentry "Ubuntu GNOME 16.04.1 LTS" {
-	icon /EFI/refind/themes/rEFInd-minimal/icons/os_ubuntugnome.png
+	icon /EFI/refind/themes/rEFInd-theme/icons/os_ubuntugnome.png
 	volume "2ea3ea21-dec5-4bb4-a1a9-e7d3a857904c"
 	loader /vmlinuz.efi.signed
 	initrd /initrd.img
